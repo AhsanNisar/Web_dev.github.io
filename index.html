@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Visualization Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Visualization: Landing Page</title>
 </head>
 <body>
     <!--NAV BAR START-->
@@ -44,45 +44,30 @@
         <!--END OF NAV BAR-->
 
 
-        <!--START OF THE TEXT AND VISUALTIONS-->
+        <!--START OF THE TEXT AND VISUALTIONS-->    
+       <div class="container">              
+              <div class="col-lg-7 col-md-12">
+                <h1>Project Description</h1>
+                <p>In this assignement, weather data was analyzed for 500 cities. The data was retrieved through Weather API. The data was transformed into data frames using Pandas and was finally plotted using a Matplotlib to find correlations between latitude and 4 different variables.</p>
+              </div>
+            </div>
           <br>
-         <div class ="container">
-               <div class="col-lg-5 col-md-12">
-                   <div class="whitebox"> 
-                       <h3 class="title text-center" >Visualizations</h3>
-                       <hr>
-                       <section class="clearfix">
-                            <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temperature" class="side-img panel"></a>
-                            <a href="humidity.html" class="active"><img src="Resources/assets/images/Fig2.png" alt="Humidity" class="side-img panel"></a>
-                            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" class="side-img panel active"></a>
-                            <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" class="side-img panel"></a>
-                            </div>
-               </div>
-               </div>
-           </div >
+          <div class="col-lg-5 col-md-12">
+            <div class="whitebox"> 
+              <h5 class="title text-center" >Visualizations</h5>
+              <hr>
+              <section class="clearfix">
+                  <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temperature" class="side-img panel"></a>
+                  <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" class="side-img panel"></a>
+                  <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" class="side-img panel active"></a>
+                  <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" class="side-img panel"></a>
+                  </section>
+              </div>
+            </div>
            <br>
-       
-       
-       <div class="container">
-       
-               <!-- Row 1 -->
-               <div class="row">
-                 <div class="col-md-12">
-                   <h1>Project Description</h1>
-                 </div>
-                 <div class="col-md-6">
-                   <p>In this assignement, weather data was analyzed for 500 cities. The data was retrieved through Weather API . </p>
-                 </div>
-                 <div class="col-md-6">
-                   <p>The data was transformed into data frames using Pandas and was finally plotted using a Matplotlib to find correlations between latitude and 4 different variables. </p>
-                 </div>
-               </div>
-             </div>
-           
+
              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-           
-                
+             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>               
 </body>
 </html>
